@@ -1,0 +1,21 @@
+[build-system]
+requires = ["setuptools>=64"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "lgp-anonymous"
+version = "0.2.0"
+description = "Core implementation accompanying an anonymous ICLR submission"
+readme = "README.md"
+requires-python = ">=3.9"
+dependencies = ["numpy>=1.24,<3", "tqdm>=4.65", "requests>=2.28", "Pillow>=9.1"]
+
+[project.optional-dependencies]
+text = ["datasets>=2.14", "sentence-transformers>=3.0", "transformers>=4.51"]
+client = ["transformers>=4.51"]
+
+[project.scripts]
+lgp = "lgp.cli:main"
+
+[tool.setuptools.packages.find]
+include = ["lgp*"]

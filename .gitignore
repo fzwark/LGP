@@ -1,0 +1,21 @@
+# Python bytecode and caches
+__pycache__/
+*.py[cod]
+
+# Virtual environments
+.venv/
+venv/
+
+# Build and package artifacts
+build/
+dist/
+*.egg-info/
+
+# Local experiment outputs and datasets
+data/
+runs/
+
+# Editor and operating-system files
+.DS_Store
+.idea/
+.vscode/

@@ -1,0 +1,3 @@
+LLM_SEARCH_SYS = '\nYou are an intelligent assistant that can rank answers based on their relevancy to the query. \nI will provide you with {N} passages, each indicated by number identifier []. \nRank the answers based on their relevance to query: {QUERY}.\n'
+
+LLM_SEARCH_USER = '\nQuery: {QUERY}.\nRank the {N} passages above based on their relevance to the query. \nThe passages should be listed in descending order using identifiers. \nThe most relevant passages should be listed first. \nThe output format should be like [1] > [2] ... > [{N}]. \nOnly response the ranking results, do not say any word or explain.\n'
