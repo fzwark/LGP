@@ -103,6 +103,19 @@ python -m lgp --help
 python -m lgp <command> --help
 ```
 
+
 ## Citation
 
-> **TODO:** 
+If you use this codebase, please consider citing our paper:
+
+```bibtex
+@misc{wu2026betternearestneighborgraph,
+      title={Better Nearest Neighbor Graph Indices via (Efficient) LLM-Guided Pruning}, 
+      author={Fangzhou Wu and Haike Xu and Sandeep Silwal},
+      year={2026},
+      eprint={2609.36359},
+      archivePrefix={arXiv},
+      primaryClass={cs.AI},
+      url={https://arxiv.org/abs/2609.36359}, 
+}
+```
